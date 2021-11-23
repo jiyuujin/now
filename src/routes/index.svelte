@@ -2,6 +2,7 @@
   import { onMount } from 'svelte'
 
   import Week from '$lib/Week.svelte'
+  import Time from '$lib/Time.svelte'
 
   let showTime = false
   let time = new Date()
@@ -23,4 +24,7 @@
 
 {#if !showTime}
   <Week />
+{/if}
+{#if showTime}
+  <Time {time} />
 {/if}
