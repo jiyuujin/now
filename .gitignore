@@ -8,6 +8,8 @@ yarn.lock
 
 /.svelte-kit
 
+/.vercel_build_output
+
 /package
 
 .env

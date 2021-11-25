@@ -19,6 +19,7 @@
     "cookie": "0.4.1"
   },
   "devDependencies": {
+    "@sveltejs/adapter-vercel": "1.0.0-next.31",
     "@sveltejs/kit": "1.0.0-next.196",
     "@types/cookie": "0.4.1",
     "@typescript-eslint/eslint-plugin": "5.3.1",
